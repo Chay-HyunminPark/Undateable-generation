@@ -1,10 +1,9 @@
 ---
-title: "My title"
-subtitle: "My subtitle if needed"
+title: "Gen Z Dating Dynamics"
+subtitle: "Statistical Insights and Neuroscience Perspectives on the 'Undateable Generation"
 author: 
-  - First author
-  - Another author
-thanks: "Code and data are available at: LINK."
+  - Chay Park
+thanks: "Code and data are available at: https://github.com/Chay-HyunminPark/Undateable-generation."
 date: today
 date-format: long
 abstract: "First sentence. Second sentence. Third sentence. Fourth sentence."
