@@ -6,7 +6,7 @@ author:
 thanks: "Code and data are available at: https://github.com/Chay-HyunminPark/Undateable-generation."
 date: today
 date-format: long
-abstract: "First sentence. Second sentence. Third sentence. Fourth sentence."
+abstract: "Describe more about why it matters"
 format: pdf
 number-sections: true
 bibliography: references.bib
@@ -28,10 +28,16 @@ You can and should cross-reference sections and sub-sections.
 
 The remainder of this paper is structured as follows. @sec-data....
 
+The structure of the paper should be described clearly. 
+
+"The estimand is the difference in whether an applicant would be called back if their CV signalled White with a felony vs Black without. This is considered in terms of applications to jobs in Milwaukee."
+"The estimand is the difference in whether a mother would be employed if she had three children compared with if she had two children. This is considered in terms of those who would have a third birth only if the first two children were of the same sex."
+
 
 
 # Data {#sec-data}
 
+Include coded variable names in the paper. Include graphs, and possible data looks like. 
 Some of our data is of penguins (@fig-bills), from @palmerpenguins.
 
 ```{r}
