@@ -210,7 +210,10 @@ plot(first_model, "trace")
 plot(first_model, "rhat")
 ```
 
-
+```{r}
+write_parquet(x = nationscape_data,
+              sink = "nationscape_data_cleaned.parquet")
+```
 
 \newpage
 
