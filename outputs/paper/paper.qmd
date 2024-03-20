@@ -217,8 +217,8 @@ plot(first_model, "rhat")
 ```
 
 ```{r}
-write_parquet(x = nationscape_data,
-              sink = "nationscape_data_cleaned.parquet")
+#write_parquet(x = nationscape_data,
+              #sink = "nationscape_data_cleaned.parquet")
 ```
 
 \newpage
