@@ -24,11 +24,10 @@ library(palmerpenguins)
 
 # Introduction
 
-You can and should cross-reference sections and sub-sections. 
+Generation Z, also abbreviated as Gen Z, a generation born after 1997 and onward. Gen z is often becomes a hot topic for being digital natives, ~.  Generation after millenials are currently facing dating issue. The relationship is continue to decrease not just marriage but also dating itself is declining over the period of 2014 to 2024. This paper aims to deliever the dating status in North America and analyze possible reasons what might be the reason behind it. It is important as deccreasing birth rate is begin to become a global problem. Subsequently leading to negative growth in population.
 
-The remainder of this paper is structured as follows. @sec-data....
+broader context to motivate
 
-The structure of the paper should be described clearly. 
 
 "The estimand is the difference in whether an applicant would be called back if their CV signalled White with a felony vs Black without. This is considered in terms of applications to jobs in Milwaukee."
 "The estimand is the difference in whether a mother would be employed if she had three children compared with if she had two children. This is considered in terms of those who would have a third birth only if the first two children were of the same sex."
