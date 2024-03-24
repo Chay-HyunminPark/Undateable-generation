@@ -2,9 +2,7 @@
 
 ## Overview
 
-This repo provides students with a foundation for their own projects associated with *Telling Stories with Data*. You do not need every aspect for every paper and you should delete aspects that you do not need.
-
-This repository focuses on analyzing and visualizing data related to birth rates in US, replicating the study conducted by Kearney, Levine, and Pardue (2022). Through an analysis of trends spanning from 1980 to 2020, we investigate variations in birth rates among different age groups and disparities based on the race and ethnicity of mothers. While initially attributing the decline to the Great Recession, our analysis uncovers additional factors contributing to this trend. 
+This repository focuses on analyzing and visualizing data related to dating life of young adult in US. Through an analysis of trends spanning from 2004 to 2024, we investigate variations in ~. 
 
 To use this folder, click the green "Code" button", then "Download ZIP". Move the downloaded folder to where you want to work on your own computer, and then modify it to suit.
 
