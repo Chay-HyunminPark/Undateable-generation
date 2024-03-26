@@ -24,9 +24,33 @@ library(palmerpenguins)
 
 # Introduction
 
-Generation Z, also abbreviated as Gen Z, a generation born after 1997 and onward. Gen z is often becomes a hot topic for being digital natives, ~.  Generation after millenials are currently facing dating issue. The relationship is continue to decrease not just marriage but also dating itself is declining over the period of 2014 to 2024. This paper aims to deliever the dating status in North America and analyze possible reasons what might be the reason behind it. It is important as deccreasing birth rate is begin to become a global problem. Subsequently leading to negative growth in population.
-
 broader context to motivate
+
+### below is more related to commitment issue
+
+According to Pew Research, Generation Z, also abbreviated for Gen Z, is defined as a generation born betweeen 1997 to 2012 (Dimock, 2019). 
+Young people aren't dating and having sex the same way past generations have. Just 1 in 10 are "committed to being committed," (Klein, 2022). There are many possible reasons addressed, gen z is entering adulthood during a particulary tenuous time, the Covid-19 pandemic, ever-worsening climate change, and financial stability. Many feel they need to be stable for themselves before picturing themselves with another person. Perhaps this is supporting why Gen Z is described as a hyper-focused generation. 
+Stephanie Coontz, the director of research and public education for the US-based Council on Contemporary Families once said "back in the 1960s and 70s, your average 25-year-old man could support a family with his income and not expect his wife to work," and Klein pointed out it no longer fits contemporary circumstances. On the other hand, Gen Z is prioritising a solid financial foundation as individuals, which is lengthening the path toward marriage. Gen Z desire to gain "financial independence" before they settle down with a long-tern partner (Klein, 2022).
+
+New dating terms such as "talking to someone", "hanging out", "situationships" are developed. Putting everything else but actual commitment. Now the dating is described as 'casual', 'easy-going' at a 'surface level'.
+
+Dating in the digital age adds an additional layer of complexity. 
+"Everyone's scared to commit because they're worried that someone better is out tere."
+Dating apps can foster an environment where inappropriate behaviour thrives, like treating people as throwaways. 
+
+
+
+Endless options every time they open a dating app. Commiting to someone means that you're cutting yourself from all those other options.
+
+In this paper, I will demonstrate in neuroscience perspective 
+
+
+
+- Way to understand how different formative experiences interact with the life-cycle and aging process to shape people's views of the world. 
+ 
+Gen Z dating issue was raised ~ 
+
+
 
 
 "The estimand is the difference in whether an applicant would be called back if their CV signalled White with a felony vs Black without. This is considered in terms of applications to jobs in Milwaukee."
@@ -34,49 +58,8 @@ broader context to motivate
 
 
 
+
 # Data {#sec-data}
-
-Include coded variable names in the paper. Include graphs, and possible data looks like. 
-Some of our data is of penguins (@fig-bills), from @palmerpenguins.
-
-```{r}
-#| label: fig-bills
-#| fig-cap: Bills of penguins
-#| echo: false
-
-ggplot(penguins, aes(x = island, fill = species)) +
-  geom_bar(alpha = 0.8) +
-  scale_fill_manual(values = c("darkorange","purple","cyan4"),
-                    guide = "none") +
-  theme_minimal() +
-  facet_wrap(~species, ncol = 1) +
-  coord_flip()
-```
-
-Talk more about it.
-
-And also planes (@fig-planes). (You can change the height and width, but don't worry about doing that until you have finished every other aspect of the paper - Quarto will try to make it look nice and the defaults usually work well once you have enough text.)
-
-```{r}
-#| label: fig-planes
-#| fig-cap: Relationship between wing length and width
-#| echo: false
-#| warning: false
-#| message: false
-
-analysis_data <- read_csv(here::here("outputs/data/analysis_data.csv"))
-
-analysis_data |> 
-  ggplot(aes(x = width, y = length)) +
-  geom_point(alpha = 0.8) +
-  theme_minimal() +
-  labs(x = "Wing width (mm)",
-       y = "Wing length (mm)")
-```
-
-Talk way more about it. 
-
-
 
 # Model
 
@@ -85,19 +68,6 @@ The goal of our modelling strategy is twofold. Firstly,...
 Here we briefly describe the Bayesian analysis model used to investigate... Background details and diagnostics are included in [Appendix -@sec-model-details].
 
 ## Model set-up
-
-Define $y_i$ as the number of seconds that the plane remained aloft. Then $\beta_i$ is the wing width and $\gamma_i$ is the wing length, both measured in millimeters.  
-
-\begin{align} 
-y_i|\mu_i, \sigma &\sim \mbox{Normal}(\mu_i, \sigma) \\
-\mu_i &= \alpha + \beta_i + \gamma_i\\
-\alpha &\sim \mbox{Normal}(0, 2.5) \\
-\beta &\sim \mbox{Normal}(0, 2.5) \\
-\gamma &\sim \mbox{Normal}(0, 2.5) \\
-\sigma &\sim \mbox{Exponential}(1)
-\end{align}
-
-We run the model in R [@citeR] using the `rstanarm` package of @rstanarm. We use the default priors from `rstanarm`.
 
 
 ### Model justification
@@ -109,46 +79,18 @@ We can use maths by including latex between dollar signs, for instance $\theta$.
 
 # Results
 
-Our results are summarized in @tbl-modelresults.
-
-```{r}
-#| echo: false
-#| eval: true
-#| warning: false
-#| message: false
-
-library(rstanarm)
-
-first_model <-
-  readRDS(file = here::here("outputs/models/first_model.rds"))
-```
-
-```{r}
-#| echo: false
-#| eval: true
-#| label: tbl-modelresults
-#| tbl-cap: "Explanatory models of flight time based on wing width and wing length"
-#| warning: false
-
-modelsummary::modelsummary(
-  list(
-    "First model" = first_model
-  ),
-  statistic = "mad",
-  fmt = 2
-)
-```
-
-
 
 
 # Discussion
 
 ## First discussion point {#sec-first-point}
-
-If my paper were 10 pages, then should be be at least 2.5 pages. The discussion is a chance to show off what you know and what you learnt from all this. 
+### Lack of testosterone
+- increase in obesity
+- less physical society
 
 ## Second discussion point
+
+### The rise of dating apps has changed not just how people get dates, but how they behave in real life.
 
 ## Third discussion point
 
