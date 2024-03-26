@@ -48,6 +48,53 @@ ggplot(overall_trend, aes(x = Year)) +
 
 # Display a subset of the detailed
 
+#### Test codes ####
+
+
+# Test 1: Data Completeness
+test_data_completeness <- function() {
+  if (nrow(overall_trend) == length(years) && nrow(obesity_by_group) == length(years) * length(age_groups) * length(races)) {
+    return("Data completeness test passed")
+  } else {
+    return("Data completeness test failed")
+  }
+}
+
+# Test 2: Data Range
+test_data_range <- function() {
+  if (all(testosterone_levels >= 300 & testosterone_levels <= 1000) && all(obesity_by_group$ObesityRate >= 0 & obesity_by_group$ObesityRate <= 100)) {
+    return("Data range test passed")
+  } else {
+    return("Data range test failed")
+  }
+}
+
+# Test 3: Plot Generation
+test_plot_generation <- function() {
+  tryCatch({
+    plot <- ggplot(overall_trend, aes(x = Year)) +
+      geom_line(aes(y = Testosterone, color = "Testosterone")) +
+      geom_line(aes(y = Obesity, color = "Obesity")) +
+      scale_color_manual(values = c("Testosterone" = "blue", "Obesity" = "red")) +
+      labs(title = "Trend in Testosterone Levels and Obesity Rates (1995-2024)", y = "Level/Rate", color = "Legend") +
+      theme_minimal()
+    if (!is.null(plot)) {
+      return("Plot generation test passed")
+    } else {
+      return("Plot generation test failed")
+    }
+  }, error = function(e) {
+    return("Plot generation test failed with error: " + e$message)
+  })
+}
+
+# Run tests
+cat(test_data_completeness(), "\n")
+cat(test_data_range(), "\n")
+cat(test_plot_generation(), "\n")
+
+
+
 
 
 
