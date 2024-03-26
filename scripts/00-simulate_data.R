@@ -1,6 +1,6 @@
 #### Preamble ####
 # Purpose: The purpose of this script is to simulate and visualize the trend in testosterone and obesity rates in the United States from the year 1995 
-# to 2024. The script generates tables and graphs to illustrate the overall trend in US birth rates, as well as the obesity rates among 
+# to 2024. The script generates tables and graphs to illustrate the overall trend in US dating rates, as well as the obesity rates among 
 # various subgroups such as different age groups and race and ethnicities.
 # Author: Chay Park
 # Date: 26 March 2024
