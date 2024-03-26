@@ -3,10 +3,10 @@
 # to 2024. The script generates tables and graphs to illustrate the overall trend in US birth rates, as well as the obesity rates among 
 # various subgroups such as different age groups and race and ethnicities.
 # Author: Chay Park
-# Date: 19 March 2024
+# Date: 26 March 2024
 # Contact: chay.park@mail.utoronto.ca
 # License: MIT
-# Pre-requisites: install package, tidyverse
+# Pre-requisites: install tidyverse packages
 
 
 #### Workspace setup ####
