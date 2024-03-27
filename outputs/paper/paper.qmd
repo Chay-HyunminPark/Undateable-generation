@@ -49,6 +49,9 @@ Gen Z dating issue was raised ~
 
 The datasets generated and/or analyzed during the current study about testosterone trends are not publicly available due to privacy regulations. 
 
+<<Is there really a sex recession? Period ... 
+"Between 2006 and 2019, the years examined in the present inquiry, the percentage of men between the ages of 25 and 35 in the labor force fell from 92% to 88%, while the percentage ... (Coy, 2021)"
+
 
 # Data {#sec-data}
 
