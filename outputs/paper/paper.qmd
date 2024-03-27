@@ -47,6 +47,7 @@ Gen Z dating issue was raised ~
 "The estimand is the difference in whether a mother would be employed if she had three children compared with if she had two children. This is considered in terms of those who would have a third birth only if the first two children were of the same sex."
 
 
+The datasets generated and/or analyzed during the current study about testosterone trends are not publicly available due to privacy regulations. 
 
 
 # Data {#sec-data}
@@ -76,7 +77,7 @@ Here we briefly describe the Bayesian analysis model used to investigate... Back
 
 Testosterone is a vital hormone, particularly in males, where it supports the development of male reproductive tissues like the testes and prostate, and fosters secondary sexual characteristics including increased muscle and bone mass, and body hair growth. It plays a crucial role in reproductive functions, fueling sexual desire and sperm production. The decline or deficiency of testosterone can lead to significant issues, affecting sexual health by reducing libido and fertility, which underscores the importance of maintaining adequate levels of this hormone for overall sexual and physical well-being (Harvard Health Publishing, 2023).
 
-The point is that declining testosterone leading to less desire to have sexual activity such that young male population have less willingness to be in a relationship. 
+The point is that declining testosterone leading to less desire to have sexual activity such that young male population have less willingness to be in a relationship. The study have shown that there is a decline in testosterone level in american male. 
 
 
 ## Second discussion point
