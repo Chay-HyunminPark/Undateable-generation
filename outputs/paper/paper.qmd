@@ -29,18 +29,8 @@ broader context to motivate
 ### below is more related to commitment issue
 
 According to Pew Research, Generation Z, also abbreviated for Gen Z, is defined as a generation born betweeen 1997 to 2012 (Dimock, 2019). 
-Young people aren't dating and having sex the same way past generations have. Just 1 in 10 are "committed to being committed," (Klein, 2022). There are many possible reasons addressed, gen z is entering adulthood during a particulary tenuous time, the Covid-19 pandemic, ever-worsening climate change, and financial stability. Many feel they need to be stable for themselves before picturing themselves with another person. Perhaps this is supporting why Gen Z is described as a hyper-focused generation. 
-Stephanie Coontz, the director of research and public education for the US-based Council on Contemporary Families once said "back in the 1960s and 70s, your average 25-year-old man could support a family with his income and not expect his wife to work," and Klein pointed out it no longer fits contemporary circumstances. On the other hand, Gen Z is prioritising a solid financial foundation as individuals, which is lengthening the path toward marriage. Gen Z desire to gain "financial independence" before they settle down with a long-tern partner (Klein, 2022).
-
-New dating terms such as "talking to someone", "hanging out", "situationships" are developed. Putting everything else but actual commitment. Now the dating is described as 'casual', 'easy-going' at a 'surface level'.
-
-Dating in the digital age adds an additional layer of complexity. 
-"Everyone's scared to commit because they're worried that someone better is out tere."
-Dating apps can foster an environment where inappropriate behaviour thrives, like treating people as throwaways. 
-
-
-
-Endless options every time they open a dating app. Commiting to someone means that you're cutting yourself from all those other options.
+Young people aren't dating and having sex the same way past generations have. 
+There are possibly many reasons behind this social circumstance. They are not dating because they are the most self-aware generation who wants to be financially stable before putting someoneelse in their picture or they are not dating due to their commitment issues. Subsequently, lack of interest in relationships lead to so called 'sex recession' period among young adults. However, in this paper, I am trying to argue for other possible reasonsings behind this phenomenon. In particular, in neuroscience perspective, presenting testosterone and dopamine. 
 
 In this paper, I will demonstrate in neuroscience perspective 
 
@@ -72,23 +62,32 @@ Here we briefly describe the Bayesian analysis model used to investigate... Back
 
 ### Model justification
 
-We expect a positive relationship between the size of the wings and time spent aloft. In particular...
-
-We can use maths by including latex between dollar signs, for instance $\theta$.
 
 
 # Results
 
++ Decreasing testosterone in 2007 study and 2021 study 
 
 
 # Discussion
 
-## First discussion point {#sec-first-point}
+## First discussion point 
 ### Lack of testosterone
-- increase in obesity
-- less physical society
+
+Testosterone is a vital hormone, particularly in males, where it supports the development of male reproductive tissues like the testes and prostate, and fosters secondary sexual characteristics including increased muscle and bone mass, and body hair growth. It plays a crucial role in reproductive functions, fueling sexual desire and sperm production. The decline or deficiency of testosterone can lead to significant issues, affecting sexual health by reducing libido and fertility, which underscores the importance of maintaining adequate levels of this hormone for overall sexual and physical well-being (Harvard Health Publishing, 2023).
+
+The point is that declining testosterone leading to less desire to have sexual activity such that young male population have less willingness to be in a relationship. 
+
 
 ## Second discussion point
+### Dispersed dopamine
+
+
+Dopamine, often dubbed the "feel-good" neurotransmitter, plays a central role in the brain's reward and pleasure systems, driving feelings of enjoyment and motivation (Watson, 2021). In today's digital age, various platforms, such as social media, online gaming, and instant streaming services, are designed to continuously stimulate dopamine release, reinforcing engagement and craving for content. This constant and immediate gratification can lead to a cycle where individuals seek more intense experiences in shorter intervals to sustain the dopamine-induced pleasure. Consequently, this dynamic can contribute to addictive behaviors and compulsive use of these platforms, as the brain's dopamine response becomes increasingly tied to these rapid and potent sources of stimulation, fostering a persistent desire for more intense and immediate rewards.
+
++ Development of social media, short & intense contents
++ Easily accessible pornography, pornhub, onlyfans, stimulate sexual desire instantly and craving for more.
+
 
 ### The rise of dating apps has changed not just how people get dates, but how they behave in real life.
 
@@ -98,6 +97,21 @@ We can use maths by including latex between dollar signs, for instance $\theta$.
 
 Weaknesses and next steps should also be included.
 
+Gen Z is also facing commitment issues in dating relationships. Further research could be on the commitment issue.
+
+<<
+Just 1 in 10 are "committed to being committed," (Klein, 2022). There are many possible reasons addressed, gen z is entering adulthood during a particulary tenuous time, the Covid-19 pandemic, ever-worsening climate change, and financial stability. Many feel they need to be stable for themselves before picturing themselves with another person. Perhaps this is supporting why Gen Z is described as a hyper-focused generation. 
+Stephanie Coontz, the director of research and public education for the US-based Council on Contemporary Families once said "back in the 1960s and 70s, your average 25-year-old man could support a family with his income and not expect his wife to work," and Klein pointed out it no longer fits contemporary circumstances. On the other hand, Gen Z is prioritising a solid financial foundation as individuals, which is lengthening the path toward marriage. Gen Z desire to gain "financial independence" before they settle down with a long-tern partner (Klein, 2022).
+
+New dating terms such as "talking to someone", "hanging out", "situationships" are developed. Putting everything else but actual commitment. Now the dating is described as 'casual', 'easy-going' at a 'surface level'.
+
+Dating in the digital age adds an additional layer of complexity. 
+"Everyone's scared to commit because they're worried that someone better is out tere."
+Dating apps can foster an environment where inappropriate behaviour thrives, like treating people as throwaways. 
+
+Endless options every time they open a dating app. Commiting to someone means that you're cutting yourself from all those other options.
+>>
+
 \newpage
 
 \appendix
@@ -105,57 +119,7 @@ Weaknesses and next steps should also be included.
 # Appendix {-}
 
 
-# Additional data details
 
-# Model details {#sec-model-details}
-
-## Posterior predictive check
-
-In @fig-ppcheckandposteriorvsprior-1 we implement a posterior predictive check. This shows...
-
-In @fig-ppcheckandposteriorvsprior-2 we compare the posterior with the prior. This shows... 
-
-```{r}
-#| eval: true
-#| echo: false
-#| message: false
-#| warning: false
-#| label: fig-ppcheckandposteriorvsprior
-#| layout-ncol: 2
-#| fig-cap: "Examining how the model fits, and is affected by, the data"
-#| fig-subcap: ["Posterior prediction check", "Comparing the posterior with the prior"]
-
-pp_check(first_model) +
-  theme_classic() +
-  theme(legend.position = "bottom")
-
-posterior_vs_prior(first_model) +
-  theme_minimal() +
-  scale_color_brewer(palette = "Set1") +
-  theme(legend.position = "bottom") +
-  coord_flip()
-```
-
-## Diagnostics
-
-@fig-stanareyouokay-1 is a trace plot. It shows... This suggests...
-
-@fig-stanareyouokay-2 is a Rhat plot. It shows... This suggests...
-
-```{r}
-#| echo: false
-#| eval: true
-#| message: false
-#| warning: false
-#| label: fig-stanareyouokay
-#| fig-cap: "Checking the convergence of the MCMC algorithm"
-#| fig-subcap: ["Trace plot", "Rhat plot"]
-#| layout-ncol: 2
-
-plot(first_model, "trace")
-
-plot(first_model, "rhat")
-```
 
 ```{r}
 #write_parquet(x = nationscape_data,
